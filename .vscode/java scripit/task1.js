@@ -22,7 +22,7 @@ class User{
         }
 
         getPackage(){
-            console.log(this.username +' is selected for the ' + this.package + 'package');
+            console.log(this.username +' is for the ' + this.package + 'package');
         }
     }
     let surya = new Member('surya', 'surya@gmail.com', 134898, 'standard');
